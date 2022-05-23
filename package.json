@@ -4,7 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start" : "webpack-dev-server --mode developemt"
+    "start": "webpack-dev-server --mode development",
+    "build": "webpack --mode production"
   },
   "dependencies": {
     "rxjs": "^7.5.5",
@@ -12,5 +13,8 @@
     "typescript": "^4.6.4",
     "webpack": "^5.72.1",
     "webpack-dev-server": "^4.9.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.9.2"
   }
 }
